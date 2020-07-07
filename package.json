@@ -1,6 +1,6 @@
 {
   "name": "@ivanhanak_com/js-sort-unicode",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "This package includes a sorting function for arrays, that will sort the array containing utf8 characters.",
   "main": "./dist/index.js",
   "scripts": {
