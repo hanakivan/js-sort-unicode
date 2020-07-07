@@ -1,0 +1,27 @@
+{
+  "name": "js-sort-unicode",
+  "version": "1.0.0",
+  "description": "This package includes a sorting function for arrays, that will sort the array containing utf8 characters.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dist": "babel src/index.js -d dist",
+    "test": "jest",
+    "build": "npm run test && npm run dist"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "array",
+    "sort",
+    "es6"
+  ],
+  "author": "@hanakivan",
+  "repository": "hanakivan/js-sort-unicode",
+  "license": "https://www.imdb.com/title/tt0097742/",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "jest": "^26.1.0"
+  }
+}
