@@ -8,6 +8,11 @@ This package includes a sorting function for arrays, that will sort the array co
 ## Changelog
 See the whole [Changelog](/CHANGELOG.md).
 
+## Browser support
+Uses `Intl.Collator` API. More information here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator.
+
+IE 11+, Chromoe 24+, Edge 12+, Firefox 29+, Opera 15+, Safari 10+ 
+
 ## Install
 
 Using npm:
